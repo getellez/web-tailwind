@@ -44,9 +44,9 @@
 
 @layer components {
   .menu-item {
-    @apply mr-5 ml-5 tracking-wider flex-none
+    @apply mr-5 ml-5 tracking-wider flex-none flex-1;
   }
   .menu-item-a {
-    @apply block transition duration-200 hover:text-azul-claro transform hover:scale-125
+    @apply block transition duration-200 hover:text-azul-claro transform hover:scale-125;
   }
 }
